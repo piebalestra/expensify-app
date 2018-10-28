@@ -13,6 +13,8 @@ new Repo
 push
 
 # SSH key
+git config --global user.email 
+git config --global user.email 
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
