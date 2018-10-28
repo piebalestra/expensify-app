@@ -1,3 +1,4 @@
+# Init Project
 cd root-project
 git init
 	.gitignore
@@ -7,9 +8,16 @@ git commit -m "Initial commit"
 change files 
 git add app
 git commit -m ""
-
 create readme.md
+new Repo
+push
 
+# SSH key
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+git clone https://github.com/piebalestra/indecision-app.git
 
 # Git Commands
 git init - Create a new git repo
