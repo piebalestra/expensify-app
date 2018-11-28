@@ -14,7 +14,6 @@ yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2
 # Create node-dependecy
 yarn install
 
-
 # EXECUTION
 c:
 cd C:\Users\p1e\Documents\React\indecision-app
@@ -24,7 +23,6 @@ c:
 cd C:\Users\p1e\Documents\React\indecision-app
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 
-
 cd C:\Users\p1e\Documents\React\indecision-app
-yarn run serve
-yarn run build
+yarn install
+yarn run dev-server
