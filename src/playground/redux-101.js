@@ -24,26 +24,26 @@ const resetCount = () => ({
 
 // Reducers
 // 1. Reducers are pure function
-//
+// 2. Never change state or action
 
 const countReducer = (state = {count: 0}, action) =>  {
     switch (action.type) {
         case 'INCREMENT':
             return {
                 count: state.count + action.incrementBy
-            }
+            };
         case 'DECREMENT':
             return {
                 count: state.count - action.decrementBy
-            }
+            };
         case 'SET' :
             return {
                 count: action.count
-            }
+            };
         case 'RESET':
             return {
                 count: 0
-            }    
+            };
         default:
             return state;
     }
